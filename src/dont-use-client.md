@@ -7,7 +7,9 @@ Never trust the client
 
 <details>
 <summary>Solution</summary>
+
 View source on the challenge page. Notice the verify function. Construct the string that would pass that check.
+
 Final flag: `picoCTF{no_clients_plz_1a3c89}`
 </details>
 

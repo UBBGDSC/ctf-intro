@@ -4,9 +4,11 @@
 
 <details>
 <summary>Solution</summary>
+
 Looking at the source we see a function called check_key. It does a bunch of checks to see if our input is a valid key.
 Thankfully we have all the info necessary to recreate it, instead of comparing we can just print the correct value.
 I just copy-pasted the original code and deleted some of the unnecessary parts.
+
 Code:
 ```
 import hashlib
@@ -49,5 +51,6 @@ def get_key(username_trial):
 
 get_key(bUsername_trial)
 ```
+
 Final flag: `picoCTF{1n_7h3_|<3y_of_e584b363}`
 </details>

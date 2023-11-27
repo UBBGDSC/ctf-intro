@@ -8,6 +8,7 @@ Think of different ways you can "stack" images
 
 <details>
 <summary>Solution</summary>
+
 Use python PIL
 If you play around with different operation for each pail of pixels you’ll notice that a lot of them turn white when using xor.
 Make the non white ones obvious.
